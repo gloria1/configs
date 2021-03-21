@@ -5,13 +5,11 @@
     {
       "action" : "deny",
       "creationDate" : 1612284561.5004969,
-      "direction" : "incoming",
+      "direction" : "outgoing",
       "disabled" : true,
       "modificationDate" : 1612806096.645617,
-      "owner" : "system",
       "process" : "any",
-      "remote-domains": "facebook",
-      "remote" : "local-net"
+      "remote-domains": "facebook"
     }
   ]
 }
