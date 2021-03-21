@@ -1,0 +1,17 @@
+{
+  "description" : "",
+  "name" : "test1",
+  "rules" : [
+    {
+      "action" : "deny",
+      "creationDate" : 1612284561.5004969,
+      "direction" : "incoming",
+      "disabled" : true,
+      "modificationDate" : 1612806096.645617,
+      "owner" : "system",
+      "process" : "any",
+      "remote-domains": "facebook",
+      "remote" : "local-net"
+    }
+  ]
+}
