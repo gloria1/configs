@@ -1,0 +1,44 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+node_modules
+/.pnp
+.pnp.js
+.sync-conflict*
+
+# for yarn v2+ (per https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored)
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.eslintcache
+.code-workspace
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+extension/yarn.lock
+server/yarn.lock
+extension2/yarn.lock
+extension2/yarn.lock
+viewer/.eslintcache
+viewer/.eslintcache
+viewer/.eslintcache
